@@ -6,7 +6,7 @@ interface MyProfileProps {
     isStudent?: boolean
 }
 
-function MyProfile({name, bio, tech, age, isStudent}:MyProfileProps ) {
+function MyProfile({name, bio, tech, age, isStudent = false}:MyProfileProps ) {
   return (
     <div>
      <h2>{name}</h2>
