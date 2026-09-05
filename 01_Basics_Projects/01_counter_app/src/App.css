@@ -182,3 +182,12 @@
     border-right-color: var(--border);
   }
 }
+
+
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
